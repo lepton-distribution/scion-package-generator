@@ -1,0 +1,14 @@
+[distutils]
+index-servers=
+    test
+    pypi
+
+[test]
+repository = https://testpypi.python.org
+username = TEST_USERNAME_HERE
+password = TEST_PASSWORD_HERE
+
+[pypi]
+repository = https://pypi.python.org
+username = PRODUCTION_USERNAME_HERE
+password = PRODUCTION_PASSWORD_HERE
