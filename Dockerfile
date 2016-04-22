@@ -29,8 +29,8 @@ RUN pip install changes
 # Scripts
 #################
 
-# Copy the entrypoint script
-ADD entrypoint.sh /entrypoint.sh
+# Copy the setup script
+ADD setup.sh /setup.sh
 
 # first launch setup script
 # and give a shell to launch some commands manually
